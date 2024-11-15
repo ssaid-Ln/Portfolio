@@ -12,34 +12,48 @@ const Experiences = () => {
     <h3>Frontend Development </h3>
     <div className="experiencecontent">
       <article className="edetails">
-        <BsFillPatchCheckFill/>
+        <BsFillPatchCheckFill className='eicon'/>
+        <div>
+          
         <h4>HTML</h4>
       <small className="text-align">Experienced</small>
+        </div>
       </article>
       <article className="edetails">
-      <BsFillPatchCheckFill/>
+      <BsFillPatchCheckFill className='eicon'/>
+       <div>
         <h4>CSS</h4>
       <small className="text-align">Experienced</small>
+        </div> 
       </article>
       <article className="edetails">
-      <BsFillPatchCheckFill/>
+      <BsFillPatchCheckFill className='eicon'/>
+        <div>
+
         <h4>JAVASCRIPT</h4>
       <small className="text-align">Experienced</small>
+        </div>
       </article>
       <article className="edetails">
-      <BsFillPatchCheckFill/>
-        <h4>BOOTSTRAP</h4>
+      <BsFillPatchCheckFill className='eicon'/>
+        <div>
+          <h4>BOOTSTRAP</h4>
       <small className="text-align">Experienced</small>
+          </div>
       </article>
       <article className="edetails">
-      <BsFillPatchCheckFill/>
-        <h4>TAILWIND</h4>
+      <BsFillPatchCheckFill className='eicon'/>
+        <div>
+          <h4>TAILWIND</h4>
       <small className="text-align">Intermediate</small>
+          </div>
       </article>
       <article className="edetails">
-      <BsFillPatchCheckFill/>
-        <h4>REACT</h4>
+      <BsFillPatchCheckFill className='eicon'/>
+        <div>
+          <h4>REACT</h4>
       <small className="text-align">Intermediate</small>
+          </div>
       </article>
     </div>
       </div>
@@ -47,29 +61,39 @@ const Experiences = () => {
         <h3>Web Scraping</h3>
         <div className="experiencecontent">
       <article className="edetails">
-        <BsFillPatchCheckFill/>
-        <h4>python</h4>
+        <BsFillPatchCheckFill className='eicon'/>
+        <div>
+          <h4>python</h4>
       <small className="text-align">Experienced</small>
+          </div>
       </article>
       <article className="edetails">
-      <BsFillPatchCheckFill/>
-        <h4>SELENIUM</h4>
+      <BsFillPatchCheckFill className='eicon'/>
+        <div>
+          <h4>SELENIUM</h4>
       <small className="text-align">Experienced</small>
+          </div>
       </article>
       <article className="edetails">
-      <BsFillPatchCheckFill/>
-        <h4>JAVASCRIPT</h4>
+      <BsFillPatchCheckFill className='eicon'/>
+       <div>
+         <h4>JAVASCRIPT</h4>
       <small className="text-align">Experienced</small>
+        </div>
       </article>
       <article className="edetails">
-      <BsFillPatchCheckFill/>
-        <h4>MySQL</h4>
+      <BsFillPatchCheckFill className='eicon'/>
+        <div> 
+      <h4>MySQL</h4>
       <small className="text-align">Experienced</small>
+      </div>
       </article>
       <article className="edetails">
-      <BsFillPatchCheckFill/>
-        <h4>PUPPETEER</h4>
+      <BsFillPatchCheckFill className='eicon'/>
+        <div>
+          <h4>PUPPETEER</h4>
       <small className="text-align">Intermediate</small>
+          </div>
       </article>
       </div>
       </div>
