@@ -1,0 +1,37 @@
+.econtainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    align-items: center;
+    border: 4px solid black;
+}
+.econtainer>div{
+    background :var(--colorbgvr);
+    padding: 2rem 4rem;
+    border-radius: 2rem;
+    border:1px solid transparent ;
+    transition: var(--tran);
+    margin: auto;
+}
+.econtainer>div:hover{
+    background:transparent;
+    border-color: var(--colorprvr);
+    cursor:default;
+}
+.econtainer>div h3{
+    color: var(--colorpr);
+    text-align: center;
+    margin-bottom:2rem ;
+}
+.experiencecontent{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 2rem;
+}
+.edetails{
+    display: flex;
+    gap: 1rem;
+}
+.s{
+    margin-right: 13rem;
+}
