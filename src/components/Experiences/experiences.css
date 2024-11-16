@@ -1,36 +1,59 @@
-.econtainer{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 2rem;
-    width: 93%;
+.econtainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  width: 93%;
 }
-.econtainer>div{
-    background :var(--colorbgvr);
-    padding: 2.4rem 5rem;
-    border-radius: 2rem;
-    border:1px solid transparent ;
-    transition: var(--tran);
+.econtainer > div {
+  background: var(--colorbgvr);
+  padding: 2.4rem 5rem;
+  border-radius: 2rem;
+  border: 1px solid transparent;
+  transition: var(--tran);
 }
-.econtainer>div:hover{
-    background:transparent;
-    border-color: var(--colorprvr);
-    cursor:default;
+.econtainer > div:hover {
+  background: transparent;
+  border-color: var(--colorprvr);
+  cursor: default;
 }
-.econtainer>div h3{
-    color: var(--colorpr);
-    text-align: center;
-    margin-bottom:2rem ;
+.econtainer > div h3 {
+  color: var(--colorpr);
+  text-align: center;
+  margin-bottom: 2rem;
 }
-.experiencecontent{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    row-gap: 2rem;
+.experiencecontent {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 2rem;
 }
-.edetails{
-    display: flex;
-    gap: 1rem;
+.edetails {
+  display: flex;
+  gap: 1rem;
 }
-.eicon{
-    margin-top: 6px;
-    color: var(--colorpr);
+.eicon {
+  margin-top: 6px;
+  color: var(--colorpr);
+}
+@media screen and (max-width: 1020px) {
+    .econtainer{
+        grid-template-columns: 1fr;
+    }
+    .econtainer>div{
+        width: 80%;
+        padding: 2rem;
+        margin: 0 auto;
+
+    }
+    .experiencecontent{
+        padding: 1rem;
+    }
+}
+@media screen and (max-width: 600px) {
+    .econtainer{
+        gap: 1rem;
+    }
+    .econtainer>div{
+        width: 100%;
+        padding: 2rem 1rem;
+    }
 }

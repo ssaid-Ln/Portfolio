@@ -1,0 +1,42 @@
+.portcontainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2.5rem ;
+
+}
+.portitem{
+    background: var(--colorbgvr);
+    padding: 1.2rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    transition: var(--tran);
+}
+.portitem:hover{
+    border-color: ver(--colorprvr);
+    background: transparent;
+}
+.portimage{
+    border-radius: 1.5rem;
+    overflow: hidden;
+   
+}
+.portitem h3{
+    margin: 1.2rem 2rem;
+}
+.portcta{
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+@media screen and (max-width:1020px){
+  .portcontainer{
+    grid-template-columns: 1fr 1fr;
+    gap: 1.2rem;
+  }
+     }
+   @media screen and (max-width:600px){
+   .portcontainer{
+    grid-template-columns: 1fr;
+    gap: 1rem;
+   }
+     }

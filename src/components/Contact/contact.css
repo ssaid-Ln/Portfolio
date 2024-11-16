@@ -1,0 +1,61 @@
+.container.contactcontainer{
+    width: 58%;
+    display: grid;
+    grid-template-columns: 38% 50%;
+    gap: 12%;}
+.contactoptions{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+.contactoption{
+background: var(--colorbgvr);
+padding: 1.2rem;
+border-radius: 1.2rem;
+text-align: center;
+border: 1px solid transparent;
+transition: var(--tran);
+}
+.contactoption:hover{
+    background: transparent;
+    border-color: var(--colorprvr);
+}
+.cicon{
+    font-size: 1.5rem;
+    margin-bottom: 0.4rem;
+
+}
+.contactoption a{
+    margin-top: 0.7rem;
+    display: inline-block;
+    font-size: 0.8rem;
+    color: var(--colorpr);
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+
+}
+input,textarea{
+    width: 100%;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    background: transparent;
+    border: 2px solid var(--colorprvr);
+    resize: none;
+    color: var(--colorw);
+}
+@media screen and (max-width:1020px){
+    .container.contactcontainer{
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+     }
+   @media screen and (max-width:600px){
+   .container.contactcontainer{
+    width: var(--contsm);
+
+   }
+     }

@@ -58,10 +58,11 @@ transition: var(--tran);
     color: var(--colorw);
 }
 
-@media screen and (max-width:102Opx){
+@media screen and (max-width:1020px){
    .acontainer{
     grid-template-columns: 1fr;
     gap: 0;
+    align-items: center;
    }
    .aboutme{
     width: 50%;
@@ -69,6 +70,11 @@ transition: var(--tran);
    }
    .aboutc p{
     margin:1rem 0 1.5rem;
+   }
+   .cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
    }
      }
 @media screen and (max-width:600px){

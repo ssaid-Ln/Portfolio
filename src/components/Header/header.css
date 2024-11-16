@@ -55,9 +55,9 @@
   font-weight: 300;
   font-size: 0.9rem;
 }
-@media screen and (max-width:102Opx){
+@media screen and (max-width:1020px){
  header{
-  height: 68vh;
+  height: 100vh;
  }
   }
 @media screen and (max-width:600px){
