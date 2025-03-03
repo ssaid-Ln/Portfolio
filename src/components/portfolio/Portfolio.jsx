@@ -25,12 +25,12 @@ const Portfolio = () => {
         return(
         <article className='portitem'>
           <div className="portimage">
-            <img src={coming} alt="coming soon image" />
+            <img src={urlimage} alt="coming soon image" />
           </div>
-          <h3>Coming Soon</h3>
+          <h3>{title}</h3>
           <div className="portcta">
-          <a href="https://github.com/ssaid-Ln" className='btn'>Github</a>
-          <a href="#" className='btn btnpr'>Live Demo</a>
+          <a href={giturl} className='btn'>Github</a>
+          <a href={demourl} className='btn btnpr'>Live Demo</a>
           </div>
         </article>)
 })}
