@@ -1,9 +1,16 @@
 import React from 'react'
 import coming from  "../../assets/coming.jpg"
+import captcha from "../../assets/captcha-game.jpg"
 import "./portfolio.css"
 const Portfolio = () => {
   let list=[{
     id:1,
+    urlimage :captcha,
+    title:"captcha-game",
+    giturl:"https://github.com/ssaid-Ln/Captcha-game",
+    demourl:"https://ssaid-ln.github.io/Captcha-game/"
+  },{
+    id:2,
     urlimage :coming,
     title:"coming soon",
     giturl:"https://github.com/ssaid-Ln",
