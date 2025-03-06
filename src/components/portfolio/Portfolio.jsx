@@ -2,6 +2,7 @@ import React from 'react'
 import coming from  "../../assets/coming.jpg"
 import captcha from "../../assets/captcha-game.jpg"
 import demineur from"../../assets/demineur.jpg"
+import game2048 from "../../assets/2048.jpg"
 import "./portfolio.css"
 const Portfolio = () => {
   let list=[{
@@ -18,6 +19,12 @@ const Portfolio = () => {
     giturl:"https://github.com/ssaid-Ln/Minesweeper",
   },{
     id:3,
+    urlimage :game2048,
+    title:"2048-game",
+    giturl:"https://github.com/ssaid-Ln/2048-game",
+  },
+  {
+    id:4,
     urlimage :coming,
     title:"coming soon",
     giturl:"https://github.com/ssaid-Ln",
