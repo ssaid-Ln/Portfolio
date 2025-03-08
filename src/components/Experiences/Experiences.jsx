@@ -44,13 +44,6 @@ const Experiences = () => {
       <article className="edetails">
       <BsFillPatchCheckFill className='eicon'/>
         <div>
-          <h4>TAILWIND</h4>
-      <small className="text-align">Intermediate</small>
-          </div>
-      </article>
-      <article className="edetails">
-      <BsFillPatchCheckFill className='eicon'/>
-        <div>
           <h4>REACT</h4>
       <small className="text-align">Intermediate</small>
           </div>
@@ -58,10 +51,17 @@ const Experiences = () => {
     </div>
       </div>
       <div className="experiencedetail s">
-        <h3>Web Scraping</h3>
+        <h3>Backend Development</h3>
         <div className="experiencecontent">
       <article className="edetails">
         <BsFillPatchCheckFill className='eicon'/>
+        <div>
+          <h4>php</h4>
+      <small className="text-align">Experienced</small>
+          </div>
+      </article>
+      <article className="edetails">
+      <BsFillPatchCheckFill className='eicon'/>
         <div>
           <h4>python</h4>
       <small className="text-align">Experienced</small>
@@ -69,16 +69,9 @@ const Experiences = () => {
       </article>
       <article className="edetails">
       <BsFillPatchCheckFill className='eicon'/>
-        <div>
-          <h4>SELENIUM</h4>
-      <small className="text-align">Experienced</small>
-          </div>
-      </article>
-      <article className="edetails">
-      <BsFillPatchCheckFill className='eicon'/>
        <div>
-         <h4>JAVASCRIPT</h4>
-      <small className="text-align">Experienced</small>
+         <h4>django</h4>
+      <small className="text-align">Intermediate</small>
         </div>
       </article>
       <article className="edetails">
@@ -87,13 +80,6 @@ const Experiences = () => {
       <h4>MySQL</h4>
       <small className="text-align">Experienced</small>
       </div>
-      </article>
-      <article className="edetails">
-      <BsFillPatchCheckFill className='eicon'/>
-        <div>
-          <h4>PUPPETEER</h4>
-      <small className="text-align">Intermediate</small>
-          </div>
       </article>
       </div>
       </div>

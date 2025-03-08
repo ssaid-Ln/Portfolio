@@ -10,16 +10,31 @@
     border-radius: 2rem;
     border: 1px solid transparent;
     transition: var(--tran);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .portitem:hover{
     border-color: ver(--colorprvr);
-    background: transparent;
+    background: rgb(53, 59, 165);
 }
-.portimage{
+.portimage {
     border-radius: 1.5rem;
     overflow: hidden;
-   
+    width: 220px; 
+    height: 170px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.portimage img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+}
+
 .portitem h3{
     margin: 1.2rem 2rem;
 }

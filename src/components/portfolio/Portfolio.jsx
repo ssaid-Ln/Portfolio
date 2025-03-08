@@ -3,6 +3,7 @@ import coming from  "../../assets/coming.jpg"
 import captcha from "../../assets/captcha-game.jpg"
 import demineur from"../../assets/demineur.jpg"
 import game2048 from "../../assets/2048.jpg"
+import e_commerce from "../../assets/e-commerce.png"
 import "./portfolio.css"
 const Portfolio = () => {
   let list=[{
@@ -25,6 +26,12 @@ const Portfolio = () => {
   },
   {
     id:4,
+    urlimage :e_commerce,
+    title:"E-Commerce-App",
+    giturl:"https://github.com/ssaid-Ln/e-commerce-website",
+  },
+  {
+    id:5,
     urlimage :coming,
     title:"coming soon",
     giturl:"https://github.com/ssaid-Ln",
